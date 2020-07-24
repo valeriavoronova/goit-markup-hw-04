@@ -132,6 +132,10 @@ color: var(--bold-title-color);
     text-decoration: none;
     list-style: none;
 }
+.header-mail::before{
+    content: "";
+    url(../images/symbol-defs.svg#icon-envelope);
+}
 
 .list{
     list-style: none;
@@ -170,7 +174,9 @@ h1{
 .main-section{
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: rgba(47, 48, 58, 0.8);;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url(../images/main/header/Headerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero{
