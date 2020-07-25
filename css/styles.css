@@ -377,6 +377,11 @@ h1{
     margin-right: 10px;
 
 }
+
+.social-icon-main:hover,
+.social-icon-main:focus{
+    background-color: var(--accent-color);
+}
 .team-member:not(:last-child){
     margin-right: 30px;
 }
