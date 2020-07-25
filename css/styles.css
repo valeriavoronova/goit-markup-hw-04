@@ -151,10 +151,7 @@ color: var(--bold-title-color);
     text-decoration: none;
     list-style: none;
 }
-.header-mail::before{
-    content: "";
-    url(../images/symbol-defs.svg#icon-envelope);
-}
+
 
 .list{
     list-style: none;
@@ -239,10 +236,36 @@ h1{
 .features-item:not(:last-child){
     margin-right: 30px;
 }
-.features-img-container{
+.features-img-container1{
     width: 270px;
     height: 120px;
-    background-image: url(./images/sprite.svg#icon-antenna1);
+    background-image: url(../images/main/features/antenna1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f5f4fa;
+}
+.features-img-container2{
+    width: 270px;
+    height: 120px;
+    background-image: url(../images/main/features/clock1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f5f4fa;
+}
+.features-img-container3{
+    width: 270px;
+    height: 120px;
+    background-image: url(../images/main/features/diagram1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f5f4fa;
+}
+.features-img-container4{
+    width: 270px;
+    height: 120px;
+    background-image: url(../images/main/features/astronaut1.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
     background-color: #f5f4fa;
 }
 .features-img{
