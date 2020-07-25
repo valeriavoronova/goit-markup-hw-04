@@ -380,7 +380,8 @@ h1{
 
 .social-icon-main:hover,
 .social-icon-main:focus{
-    background-color: var(--accent-color);
+    --color1: var(--accent-color);
+    --color3: var(--main-header-color);
 }
 .team-member:not(:last-child){
     margin-right: 30px;
