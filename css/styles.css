@@ -32,6 +32,25 @@ html {
     display: flex;
     /*margin-left: 305px;*/
 }
+
+/*adress-link{
+    display: flex;
+    align-items: baseline;
+}
+*/
+.adress-link svg{
+    margin-right: 10px;
+    
+}
+
+.adress-item:hover,
+.adress-item:focus,
+.adress-link:hover,
+.adress-link:focus{
+    --color2: var(--accent-color);
+    color: var(--accent-color);
+}
+
 .adress-link:not(:last-child){
     margin-right: 30px;
 }
@@ -142,10 +161,7 @@ color: var(--bold-title-color);
     text-decoration: none;
 }
 
-.adress-item:hover,
-.adress-item:focus{
-    color: var(--accent-color);
-}
+
 
 .nav-item-active,
 .nav-item-passive,
@@ -223,6 +239,7 @@ h1{
 .features-img-container{
     width: 270px;
     height: 120px;
+    background-image: url(../images/sprite.svg#icon-antenna1);
     background-color: #f5f4fa;
 }
 .features-img{
