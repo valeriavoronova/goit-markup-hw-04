@@ -529,6 +529,15 @@ b{
     margin-right: 10px;
 }
 
+.social-icon-bot:hover,
+.social-icon-bot:focus{
+    --color2: var(--accent-color);
+    opacity: 1;
+   
+   
+    
+}    
+
 footer{
     background-color: #2F303A;
 }
