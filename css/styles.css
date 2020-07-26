@@ -400,6 +400,12 @@ h1{
     margin-bottom: 10px;
 }
 
+.social-link{
+    display: block;
+    width: 44px;
+    height: 44px;
+}
+
 .prof{
     
    
@@ -529,14 +535,15 @@ b{
     margin-right: 10px;
 }
 
+background: rgba(255, 255, 255, 0.1);
+
 .social-icon-bot:hover,
 .social-icon-bot:focus{
     --color2: var(--accent-color);
-    opacity: 1;
-   
-   
-    
-}    
+    opacity: 1;   
+}   
+
+
 
 footer{
     background-color: #2F303A;
