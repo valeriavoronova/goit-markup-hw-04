@@ -362,6 +362,7 @@ h1{
 }
 .team-member{
     background-color: var(--main-header-color);
+    box-shadow: 0px 2px 1px rgba(238, 238, 238, 1);
 }
 .team-member>img{
     margin-bottom: 30px;
@@ -697,6 +698,11 @@ footer{
 .gallery-list-item{
     margin-right: 30px;
     margin-bottom: 30px;
+}
+
+.gallery-list-item:hover,
+.gallery-list-item:focus{
+    box-shadow: 1px 2px 1px rgba(238, 238, 238, 1);
 }
 
 .gallery-list-item:nth-child(3n){
